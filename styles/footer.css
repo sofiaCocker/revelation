@@ -1,0 +1,105 @@
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: #222222;
+	margin-top: 80px;
+	font-family: Georgia,Myriad-Roman,AdobeInvisFont;
+	color: white;
+}
+.footer__column {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+	width: 20%;
+	justify-content: flex-start;
+	font-size: 13px;
+	font-weight: 200;
+	color: white;
+	opacity: 0.5;
+}
+.footer_latest-article {
+	margin-left: 20px;
+}
+.latest-article__label {
+	font-weight: 200;
+}
+.latest-article__title {
+}
+.latest-article_description {
+}
+.footer__links-container {
+}
+.links-container__label {
+	font-weight: 200;
+}
+.latest-article__date {
+	opacity: 0.5;
+	font-size: 13px;
+}
+.links-container__links-list {
+	
+}
+.links-list__link {
+
+}
+.links-list__link a {
+	color: white;
+	text-decoration: none;
+}
+.footer__company-details-block {
+}
+.company-details-block__label {
+	font-weight: 200;
+}
+.company-details-block__details-list {
+	list-style-type: none;
+}
+.details-list__detail {
+}
+.footer_column {
+}
+.newsletter-container {
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
+	opacity: 0.5;
+	flex-direction: column;
+}
+.newsletter-container__label {
+	font-weight: 200;
+}
+.newsletter-container__name-input {
+	display: block;
+	font-size: 20px;
+	width: 120px;
+	border-radius: 10%;
+	background-color: #353535;
+	border: 1 px solid white;
+}
+.newsletter-container__email-input {
+	font-size: 20px;
+	display: block;
+	width: 120px;
+	border-radius: 10%;
+	background-color: #353535;
+	border: 1 px solid white;
+}
+.newsletter-container__submit-button {
+	background-color: #9F81A9;
+	text-transform: uppercase;
+	opacity: 1;
+	color: white;
+	border: none;
+}
+.newsletter-container__icons-container {
+}
+.icons-container__item {
+	border-radius: 50%;
+	border: none;
+	height: 25px;
+	text-align: center;
+}

@@ -1,0 +1,30 @@
+.latest-work {
+	font-family: Georgia,Myriad-Roman,AdobeInvisFont;
+	width: 963px;
+	height: 277px;
+	display: flex;
+	justify-content: center;
+	margin: 60px;
+}
+.latest-work__article-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-right: 30px;
+}
+.artilce-container__title {
+	font-weight: 800;
+	opacity: 0.5;
+}
+.article-container__image {
+}
+.article-container__description {
+	opacity: 0.5;
+	font-size: 13px;
+}
+.article-container__button {
+	align-self: flex-start;
+	background: none;
+	border: none;
+	opacity: 0.5;
+}
